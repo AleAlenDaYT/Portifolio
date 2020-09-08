@@ -5,9 +5,9 @@ Portifolio do desenvolvedor
 O controle das tarefas dessse projeto será realizado no GitHub
 
 ## Icones
-:package: nova funcionalidade 
-:up: atualização 
-:beatle: coreeção de bug
-:chekered_flag: release
+- :package: nova funcionalidade 
+- :up: atualização 
+- :beetle: coreeção de bug
+- :chekered_flag: release
 
 

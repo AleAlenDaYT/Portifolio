@@ -56,7 +56,25 @@
     width: 6rem;
     display: flex;
     justify-content: center;
-    background-color: #7F00FF;
+    align-items: center;
+    background-color: #a044ff;
+    color: #fff;
+    font-family: var(--font-action);
+    opacity: 0;
+
+}
+.hamburguer span::before{
+    content:"";
+    position: absolute;
+    border-right: .5rem solid #a044ff ;
+    border-top: .5rem solid transparent ;
+    border-left: .5rem solid transparent ;
+    border-bottom: .5rem solid transparent ;
+    left: -1rem;
+
+}
+.show-menu .hamburguer:hover span{
+    opacity: 1;
 
 }
 header{
@@ -180,7 +198,7 @@ header{
 
 }
 .menu-link:hover{
-    color: #7F00FF;
+    color: #a044ff;
 }
 
 .social-media{
@@ -194,7 +212,7 @@ header{
 }
 
 .social-media i{
-    background-color: #7F00FF;
+    background-color: #a044ff;
     color: #fff;
     height: 2.5rem;
     width: 2.5rem;
